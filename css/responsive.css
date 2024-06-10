@@ -1,0 +1,205 @@
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+@media (min-width: 1200px) and (max-width: 1342px) {
+    .product {
+        background-attachment: inherit;
+    }
+    .blog {
+        background-attachment: inherit;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .full_bg {
+        background-size: inherit;
+    }
+    .product {
+        background-attachment: inherit;
+    }
+    .blog {
+        background-attachment: inherit;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 0px 20px;
+    }
+    ul.social_icon li {
+        margin: 0 8px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .full_bg {
+        background-size: inherit;
+    }
+    .product {
+        background-attachment: inherit;
+    }
+    .blog {
+        background-attachment: inherit;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 0px 13px;
+        font-size: 17px;
+    }
+    .p_there p {
+        font-size: 14px;
+    }
+    .relative h3 {
+        font-size: 47px;
+    }
+    .titlepage h2 {
+        font-size: 45px;
+    }
+    ul.social_iconteam {
+        top: 46px;
+    }
+    ul.social_icon {
+        padding-bottom: 30px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .full_bg {
+        background-size: inherit;
+    }
+    .product {
+        background-attachment: inherit;
+    }
+    .blog {
+        background-attachment: inherit;
+    }
+    ul.infomaco {
+        justify-content: space-between;
+    }
+    .relative h3 {
+        font-size: 36px;
+    }
+    .slider_main {
+        padding-top: 12%;
+    }
+    .about_img,
+    .main_form {
+        margin-top: 30px;
+    }
+    ul.social_icon {
+        padding-bottom: 30px;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+    }
+    .navigation .navbar-collapse {
+        background: #000000;
+        padding: 20px;
+        margin-top: 16px;
+        position: absolute;
+        width: 100%;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: #fff;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        border: inherit;
+        float: right;
+        padding: 0;
+        width: 100%;
+        outline: inherit;
+        margin-top: -49px;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+        width: 48px;
+        float: right;
+    }
+    .d_none {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .full_bg {
+        background-size: inherit;
+    }
+    .product {
+        background-attachment: inherit;
+    }
+    .blog {
+        background-attachment: inherit;
+    }
+    ul.infomaco {
+        justify-content: space-between;
+    }
+    .relative h3 {
+        line-height: 28px;
+        font-size: 27px;
+    }
+    .slider_main {
+        padding-top: 30%;
+    }
+    .carousel-inner {
+        padding-top: 80px;
+    }
+    .logo {
+        float: left;
+    }
+    .desin {
+        padding-top: 30px;
+    }
+    .about_img,
+    .main_form {
+        margin-top: 30px;
+    }
+    .titlepage h2 {
+        line-height: 44px;
+        font-size: 43px
+    }
+    .variat {
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .copyright p {
+        font-size: 17px;
+    }
+    .infoma h3 {
+        padding-top: 25px;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+        margin-top: -49px;
+    }
+    .navigation .navbar-collapse {
+        background: #000000;
+        padding: 20px;
+        margin-top: 65px;
+        position: absolute;
+        width: 100%;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: #fff;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        float: right;
+        border: inherit;
+        margin-top: 1px;
+        padding: 0;
+        outline: inherit;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+        width: 48px;
+    }
+    .d_none {
+        display: none;
+    }
+}
