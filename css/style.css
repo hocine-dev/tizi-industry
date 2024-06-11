@@ -154,11 +154,11 @@ a,
 
 img {
   max-width: 100%;
-  height: 90px;
+  height: auto;
 }
 
 .logo_img {
- transform: rotate(-2deg);
+ max-height: 90px;
 }
 
 :focus {
